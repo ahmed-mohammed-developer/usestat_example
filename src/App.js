@@ -1,22 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import MyButton from './MyButton';
+import Counter from './Counter';
+import TextInput from './TextInput';
+import Counter2 from './Counter2';
+import ToggleText from './ToggleText';
+import ChangeColor from './ChangeColor';
+import ShowHideText from './ShowHideText';
+import InputText2 from './InputText2';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <MyButton />
+        <hr style={{ marginTop: '20px' }} />
+        <Counter />
+        <hr style={{ marginTop: '50px' }} />
+        <TextInput />
+        <hr style={{ marginTop: '20px' }} />
+        <Counter2 />
+        <hr style={{ marginTop: '20px' }} />
+        <ToggleText />
+        <hr style={{ marginTop: '20px' }} />
+        <ChangeColor />
+        <hr style={{ marginTop: '20px' }} />
+        <ShowHideText />
+        <hr style={{ marginTop: '20px' }} />
+        <InputText2 />
       </header>
     </div>
   );
