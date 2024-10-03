@@ -7,6 +7,9 @@ import ToggleText from './ToggleText';
 import ChangeColor from './ChangeColor';
 import ShowHideText from './ShowHideText';
 import InputText2 from './InputText2';
+import CountDown from './CountDown';
+import ToggleSwitch from './ToggleSwitch';
+import ChangeText from './ChangeText';
 
 function App() {
   return (
@@ -27,6 +30,12 @@ function App() {
         <ShowHideText />
         <hr style={{ marginTop: '20px' }} />
         <InputText2 />
+        <hr style={{ marginTop: '20px' }} />
+        <CountDown />
+        <hr style={{ marginTop: '20px' }} />
+        <ToggleSwitch />
+        <hr style={{ marginTop: '20px' }} />
+        <ChangeText />
       </header>
     </div>
   );
