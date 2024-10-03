@@ -10,6 +10,8 @@ import InputText2 from './InputText2';
 import CountDown from './CountDown';
 import ToggleSwitch from './ToggleSwitch';
 import ChangeText from './ChangeText';
+import ChangeBackground from './ChangeBackground';
+import ChangFontSize from './ChangFontSize';
 
 function App() {
   return (
@@ -36,6 +38,12 @@ function App() {
         <ToggleSwitch />
         <hr style={{ marginTop: '20px' }} />
         <ChangeText />
+        <hr style={{ marginTop: '20px' }} />
+        < ChangeBackground />
+        <hr style={{ marginTop: '20px' }} />
+        <ChangFontSize />
+        <hr style={{ marginTop: '20px' }} />
+
       </header>
     </div>
   );
